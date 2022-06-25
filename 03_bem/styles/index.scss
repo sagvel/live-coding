@@ -24,8 +24,8 @@ body {
   max-width: 1180px;
 
   @include for-large-screen {
-    padding: 0 20px;
-    margin: 0 21px;
+    padding: 0 40px;
+    margin: 0 auto;
   }
 }
 
