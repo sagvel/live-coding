@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #030303;
+}
+
+body {
+  padding: 0 10px;
+  background-color: #f7f7f7;
+}
+@media (min-width: 748px) {
+  body {
+    padding: 0;
+  }
+}
+
+.container {
+  max-width: 1180px;
+}
+@media (min-width: 748px) {
+  .container {
+    padding: 0 20px;
+    margin: 0 21px;
+  }
+}
+
+@media (min-width: 748px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.navigation__title {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Unica One", cursive !important;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 41px;
+}
+@media (min-width: 748px) {
+  .navigation__title {
+    font-size: 36px;
+    letter-spacing: 4px;
+  }
+}
+.navigation__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+@media (min-width: 336px) {
+  .navigation__container {
+    flex-direction: row;
+  }
+}
+.navigation__filter {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 700;
+  color: #666666;
+  text-align: center;
+}
+.navigation__select {
+  margin-top: 13px;
+  width: 150px;
+  height: 37px;
+  background-color: transparent;
+  color: #030303;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  font-family: Karla, sans-serif;
+}
+@media (min-width: 748px) {
+  .navigation__select {
+    border: none;
+  }
+}
+.navigation__sort {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 700;
+  color: #666666;
+  text-align: center;
+}
+@media (min-width: 336px) {
+  .navigation__sort {
+    margin-top: 0;
+  }
+}
+@media (min-width: 748px) {
+  .navigation__sort {
+    margin-left: 20px;
+  }
+}
+
+.products {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  min-height: 321px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #f7f7f7;
+  flex: 1;
+  flex-basis: 50%;
+}
+@media (min-width: 748px) {
+  .product-card {
+    height: 346px;
+    flex-basis: 20%;
+  }
+}
+.product-card__sale {
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px;
+  background-color: #006eef;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.product-card__img {
+  display: block;
+  max-width: 100%;
+  width: 165px;
+  height: auto;
+}
+.product-card__info {
+  margin-top: 30px;
+}
+.product-card__name {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+}
+.product-card__price {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+}
+
+/*# sourceMappingURL=styles.css.map */

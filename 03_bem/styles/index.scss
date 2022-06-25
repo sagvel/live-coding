@@ -1,0 +1,33 @@
+@import './variables.scss';
+@import './breackpoints.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: $text-color-main;
+}
+
+body {
+  padding: 0 10px;
+  background-color: $bg-color-main;
+
+  @include for-large-screen {
+    padding: 0;
+  }
+}
+
+.container {
+  max-width: 1180px;
+
+  @include for-large-screen {
+    padding: 0 20px;
+    margin: 0 21px;
+  }
+}
+
+@import './header.scss';
+@import './products.scss';
