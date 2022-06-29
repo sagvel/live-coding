@@ -57,13 +57,13 @@
   }
 
   &__sort {
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
     font-size: 12px;
     font-weight: 700;
-    color: $text-color-light;
     text-align: center;
+    color: $text-color-light;
 
     @include for-middle-screen {
       margin-top: 0;

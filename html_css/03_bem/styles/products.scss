@@ -2,34 +2,34 @@
 @import './breackpoints.scss';
 
 .products {
-  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 .product-card {
-  min-height: 321px;
+  position: relative;
   display: flex;
   flex-direction: column;
+  flex-basis: 50%;
+  flex: 1;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   padding: 25px;
+  min-height: 321px;
   background-color: #fff;
   border: 1px solid $text-color-lighest;
-  flex: 1;
-  flex-basis: 50%;
 
   @include for-large-screen {
-    height: 346px;
     flex-basis: 20%;
+    height: 346px;
   }
   &__sale {
-    width: 50px;
-    height: 25px;
-    line-height: 25px;
     position: absolute;
     top: 0;
     left: 0;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
     padding: 0 10px;
     background-color: $bg-clor-blue;
     color: #fff;
